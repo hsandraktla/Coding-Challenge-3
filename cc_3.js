@@ -38,3 +38,18 @@ if (employee.performanceScore <= 8.0) {
 };
 //Log the updated employee object to the console.
 console.log("Updated Employee Performance Tracking: ", employee);
+
+
+//Task 4: Customer Feedback Records
+//Declare an array feedback containing at least three objects, each with properties: customerName, feedbackText, and rating.
+let feedback = [
+    {customerName: "Kwon Jiyong", feedbackText: "Excellent service!", rating: 10},
+    {customerName: "James Bond", feedbackText: "Needs better service.", rating: 6},
+    {customerName: "Kendall Rayne", feedbackText: "Disappointed. Will not be back.", rating: 2}
+];
+//Add a new feedback object to the array.
+feedback.push(
+    {customername: "Lauren Hala", feedbackText: "It's okay. Needs improvements.", rating: 5}
+);
+//Log the entire feedback list to the console. 
+console.log("Customer Feedback Records: ", feedback);
